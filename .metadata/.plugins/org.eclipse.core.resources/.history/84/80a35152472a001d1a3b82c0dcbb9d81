@@ -1,0 +1,14 @@
+package com.example.productos.servicio;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.productos.repositorio.ProductoRepositorio;
+
+@Service
+public class ProductoServicio {
+	
+	@Autowired
+	private ProductoRepositorio productoRepositorio;
+
+}

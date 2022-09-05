@@ -1,0 +1,12 @@
+package com.example.productos.modelo;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Producto {
+	
+	private Integer id;
+	private String nombre;
+	private float precio;
+
+}
